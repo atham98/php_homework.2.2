@@ -13,7 +13,6 @@
 	$test = json_decode($get, true);
 
 	
-	if(isset($_POST['check-test'])){
 		function check_test($test_file)
 		{
 			foreach($test_file as $key => $item){
@@ -48,7 +47,6 @@
 			}
 			echo '<p style="font-weight: bold;">Итого правилных ответов: ' . $i . 'из' . $questions . '</p>';
 		}
-	}
 
 ?>
 
